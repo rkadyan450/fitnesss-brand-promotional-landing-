@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>FitZone</h2>
+        <ul>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay">
+            <h1>Transform Your Body Today</h1>
+            <p>Join India's Best Fitness Program and Achieve Your Dream Physique</p>
+            <button id="joinBtn">Join Now</button>
+        </div>
+    </header>
+
+    <!-- Membership Plans -->
+    <section id="plans">
+        <h2>Membership Plans</h2>
+        <div class="container">
+            <div class="card">Basic Plan <br> ₹999/month</div>
+            <div class="card">Pro Plan <br> ₹1999/month</div>
+            <div class="card">Premium Plan <br> ₹2999/month</div>
+        </div>
+    </section>
+
+    <!-- Trainers -->
+    <section id="trainers" class="trainers">
+        <h2>Meet Our Trainers</h2>
+        <p>Certified trainers with years of professional experience.</p>
+    </section>
+
+    <!-- Transformation Stories -->
+    <section class="stories">
+        <h2>Transformation Stories</h2>
+        <p>"Lost 15kg in 3 months!" - Rahul</p>
+        <p>"Built muscle and confidence!" - Aryan</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@fitzone.com</p>
+        <p>Phone: +91 9876543210</p>
+    </section>
+
+    <!-- Popup Form -->
+    <div class="popup" id="popupForm">
+        <div class="popup-content">
+            <span id="closeBtn">&times;</span>
+            <h2>Join Membership</h2>
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="email" id="email" placeholder="Enter Email">
+            <button onclick="submitForm()">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
